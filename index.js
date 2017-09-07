@@ -1,7 +1,8 @@
+const r = require('rox-browser');
+import Rox from 'rox-browser';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import config from './configPresets';
-import Rox from 'rox-browser';
 
 import DemoContainerView from './demoContainerView';
 import DemoContainer from './demoContainer';
