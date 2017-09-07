@@ -1,0 +1,17 @@
+{
+  "presets": ["react"],
+  "plugins": ["transform-class-properties"],
+  "env": {
+    "build": {
+      "presets": [["es2015", { "modules": false }]],
+      "plugins": ["transform-class-properties"]
+    },
+    "test": {
+      "presets": [["es2015", { "modules": false }]],
+      "plugins": [
+        "transform-class-properties",
+        "transform-es2015-modules-commonjs"
+      ]
+    }
+  }
+}
