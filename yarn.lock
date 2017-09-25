@@ -2828,9 +2828,9 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^2.0.0"
     inherits "^2.0.1"
 
-rox-base@^0.0.20-alpha:
-  version "0.0.20-alpha"
-  resolved "https://registry.yarnpkg.com/rox-base/-/rox-base-0.0.20-alpha.tgz#091b6c77b539ef3445000c1cf308b424e880d76a"
+rox-base@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rox-base/-/rox-base-1.0.0.tgz#40c3eb69925c33e088e85e96ffe26bc96ac5bac1"
   dependencies:
     axios "^0.16.2"
     lodash.clonedeep "^4.5.0"
@@ -2840,11 +2840,11 @@ rox-base@^0.0.20-alpha:
     qs "^6.5.0"
     uuid "^3.1.0"
 
-rox-browser@^0.0.20-alpha:
-  version "0.0.20-alpha"
-  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-0.0.20-alpha.tgz#66f6d1063616a255f1d01d4277a176a7b39e89df"
+rox-browser@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-1.0.1.tgz#4aa2d8c53aa033dd27700fdfac28cb87ed9391ef"
   dependencies:
-    rox-base "^0.0.20-alpha"
+    rox-base "^1.0.0"
 
 safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
