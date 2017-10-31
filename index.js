@@ -29,8 +29,6 @@ const syncHandler = () => {
 
 const options = {
   version: '3.0.0',
-  debugLevel: 'verbose',
-  configuration: config.LOCAL,
   syncCompletionHandler:syncHandler
 };
 
